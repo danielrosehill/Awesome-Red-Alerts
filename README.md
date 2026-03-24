@@ -6,15 +6,28 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 
 - [Geo-Dashboards](#geo-dashboards)
 - [API / Alert Feed Wrappers](#api--alert-feed-wrappers)
+- [SDKs (Unofficial)](#sdks-unofficial)
 - [Automation Hooks](#automation-hooks)
 - [Wrappers - Node.js](#wrappers---nodejs)
 - [Wrappers - Python](#wrappers---python)
 - [Home Assistant - Integrations](#home-assistant---integrations)
 - [Home Assistant - Automations](#home-assistant---automations)
+- [Homebridge](#homebridge)
 - [Notifiers](#notifiers)
+- [Bots](#bots)
+- [Integrations - Claude](#integrations---claude)
+- [Claude Code Statusline](#claude-code-statusline)
+- [Integrations - Slack](#integrations---slack)
+- [Integrations - Discord](#integrations---discord)
+- [Integrations - WhatsApp](#integrations---whatsapp)
+- [Integrations - VoIP / Calls](#integrations---voip--calls)
+- [Smart Home - Philips Hue](#smart-home---philips-hue)
+- [Analysis](#analysis)
+- [Infographics](#infographics)
 - [Civilian Readiness](#civilian-readiness)
 - [Pikud HaOref Guidelines for AI Context](#pikud-haoref-guidelines-for-ai-context)
 - [Resource Lists](#resource-lists)
+- [Other](#other)
 
 ---
 
@@ -22,6 +35,8 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 
 - [oref-map](https://github.com/maorcc/oref-map) — Oref alert map
 - [Red-Alert-Geodash](https://github.com/danielrosehill/Red-Alert-Geodash) — Red alert geographic dashboard
+- [pikud-haoref-map](https://github.com/avisratmp-stack/pikud-haoref-map) — Pikud HaOref alert map
+- [oref](https://github.com/jilaboon/oref) — Oref alert map
 - [HA-Red-Alert-News-Dash](https://github.com/danielrosehill/HA-Red-Alert-News-Dash) — Home Assistant red alert news dashboard *(legacy)*
 
 ## API / Alert Feed Wrappers
@@ -29,6 +44,10 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 ### GraphQL
 
 - [pikud-haoref-api-graphql](https://github.com/TuvalSimha/pikud-haoref-api-graphql) — GraphQL wrapper for the Pikud HaOref API
+
+## SDKs (Unofficial)
+
+- [pikud-haoref-api-go](https://github.com/5c077m4n/pikud-haoref-api-go) — Go SDK for the Pikud HaOref API
 
 ## Automation Hooks
 
@@ -51,15 +70,68 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 
 - [Home-Assistant-Red-Alert-Automations](https://github.com/danielrosehill/Home-Assistant-Red-Alert-Automations) — Home Assistant automation configurations for red alerts
 
+## Homebridge
+
+- [homebridge-pikud-haoref](https://github.com/GhostOnyx/homebridge-pikud-haoref) — Homebridge plugin for Pikud HaOref alerts
+
 ## Notifiers
 
 ### MQTT
 
 - [Red-Alert-MQTT-Desktop-Notifier-Public](https://github.com/danielrosehill/Red-Alert-MQTT-Desktop-Notifier-Public) — MQTT-based desktop notifier for red alerts
+- [pikud_haoref_mqtt](https://github.com/yeheskel2016/pikud_haoref_mqtt) — MQTT integration for Pikud HaOref alerts
 
 ### Raspberry Pi
 
 - [pikud](https://github.com/erikzaadi/pikud) — Raspberry Pi red alert notifier
+- [miklat-alert](https://github.com/t0mer/miklat-alert) — Raspberry Pi visual alert indicator
+
+### Windows
+
+- [RedAlert](https://github.com/Amtrtm/RedAlert) — Windows desktop red alert notifications
+
+## Bots
+
+- [pikud-haoref-memukad-bot](https://github.com/roigreenberg/pikud-haoref-memukad-bot) — Pikud HaOref Memukad bot
+- [pikud-haoref-bot](https://github.com/zitzman/pikud-haoref-bot) — Pikud HaOref bot
+
+## Integrations - Claude
+
+- [pikud-haoref-alerts](https://github.com/yaniv-golan/pikud-haoref-alerts) — Pikud HaOref alerts integration for Claude
+
+## Claude Code Statusline
+
+- [cc-redalerts-statusline](https://github.com/alonw0/cc-redalerts-statusline) — Claude Code statusline for red alerts
+- [red-alert-statusline](https://github.com/lirantal/red-alert-statusline) — Red alert statusline for Claude Code
+
+## Integrations - Slack
+
+- [pikud-haoref-slack](https://github.com/zivhundert/pikud-haoref-slack) — Pikud HaOref Slack integration
+- [oref-alerts-bot](https://github.com/anthonyangel/oref-alerts-bot) — Oref alerts Slack bot
+
+## Integrations - Discord
+
+- [PikudHaoref-Discord](https://github.com/Avir4m/PikudHaoref-Discord) — Pikud HaOref Discord notifications
+
+## Integrations - WhatsApp
+
+- [pikued-haoref-whatsapp-bot](https://github.com/lkeness/pikued-haoref-whatsapp-bot) — Pikud HaOref WhatsApp bot
+
+## Integrations - VoIP / Calls
+
+- [alert_call](https://github.com/ophiri/alert_call) — VoIP/phone call alerts for red alerts
+
+## Smart Home - Philips Hue
+
+- [oref-lights](https://github.com/sashka-ltd/oref-lights) — Philips Hue light integration for Oref alerts
+
+## Analysis
+
+- [haoref-alert-analysis](https://github.com/TomerAntman/haoref-alert-analysis) — Analysis of HaOref alert data
+
+## Infographics
+
+- [Infographic-Generator-Pikud-Haoref](https://github.com/Shalev-Aviv/Infographic-Generator-Pikud-Haoref) — Infographic generator for Pikud HaOref data
 
 ## Civilian Readiness
 
@@ -73,3 +145,8 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 ## Resource Lists
 
 - [Magen](https://github.com/thewh1teagle/Magen) — Curated resource list for civilian protection
+
+## Other
+
+- [MMM-PikudHaoref](https://github.com/oriyaakov/MMM-PikudHaoref) — MagicMirror module for Pikud HaOref alerts
+- [alerts](https://github.com/noam767/alerts) — Alerts project
