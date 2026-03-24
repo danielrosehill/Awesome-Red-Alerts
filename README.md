@@ -22,6 +22,7 @@ A curated list of open-source and community projects aiming to expand the alerti
 - [Hardware](#hardware)
 - [Analysis & Infographics](#analysis--infographics)
 - [Civilian Readiness & Preparedness](#civilian-readiness--preparedness)
+- [Full Monitoring Stacks](#full-monitoring-stacks)
 - [Resource Lists](#resource-lists)
 - [Other](#other)
 - [FAQ](#faq)
@@ -87,6 +88,7 @@ Interactive maps and dashboards for visualizing alert data geographically.
 | [Pikud HaOref API](https://github.com/eladnava/pikud-haoref-api) | eladnava | Node.js wrapper with real-time polling and city mapping | ![Stars](https://img.shields.io/github/stars/eladnava/pikud-haoref-api?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/eladnava/pikud-haoref-api) |
 | [Python Red Alert](https://github.com/Zontex/python-red-alert) | Zontex | Python wrapper for alert data *(legacy)* | ![Stars](https://img.shields.io/github/stars/Zontex/python-red-alert?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/Zontex/python-red-alert) |
 | [Python Pikud HaOref API](https://github.com/reinerstone/python-pikudHaoref-api) | reinerstone | Python API client for Pikud HaOref *(legacy)* | ![Stars](https://img.shields.io/github/stars/reinerstone/python-pikudHaoref-api?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/reinerstone/python-pikudHaoref-api) |
+| [Oref Alert Proxy](https://github.com/danielrosehill/Oref-Alert-Proxy) | danielrosehill | Local relay proxy for Pikud HaOref alert data | ![Stars](https://img.shields.io/github/stars/danielrosehill/Oref-Alert-Proxy?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Oref-Alert-Proxy) |
 
 ## SDKs & Libraries
 
@@ -115,6 +117,12 @@ Interactive maps and dashboards for visualizing alert data geographically.
 |---------|--------|-------------|-------|-------------|
 | [Homebridge Pikud HaOref](https://github.com/GhostOnyx/homebridge-pikud-haoref) | GhostOnyx | Homebridge plugin exposing alerts as HomeKit accessories | ![Stars](https://img.shields.io/github/stars/GhostOnyx/homebridge-pikud-haoref?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/GhostOnyx/homebridge-pikud-haoref) |
 
+### MQTT / Snapcast
+
+| Project | Author | Description | Stars | Last Commit |
+|---------|--------|-------------|-------|-------------|
+| [Red Alert Actuator](https://github.com/danielrosehill/Red-Alert-Actuator) | danielrosehill | Physical alert outputs: pre-recorded TTS via Snapcast whole-house audio + smart light color control via MQTT | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-Actuator?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-Actuator) |
+
 ### Philips Hue
 
 | Project | Author | Description | Stars | Last Commit |
@@ -135,6 +143,12 @@ Interactive maps and dashboards for visualizing alert data geographically.
 | [MMM Pikud HaOref](https://github.com/oriyaakov/MMM-PikudHaoref) | oriyaakov | MagicMirror module for Pikud HaOref alert display | ![Stars](https://img.shields.io/github/stars/oriyaakov/MMM-PikudHaoref?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/oriyaakov/MMM-PikudHaoref) |
 
 ## Notifiers
+
+### ![Pushover](https://img.shields.io/badge/-Pushover-249DF1?logo=pushover&logoColor=white)
+
+| Project | Author | Description | Stars | Last Commit |
+|---------|--------|-------------|-------|-------------|
+| [Red Alert Pushover](https://github.com/danielrosehill/Red-Alert-Pushover) | danielrosehill | Pushover push notifications when nationwide alert count crosses thresholds (50/100/200/.../1000 areas) for large-scale situational awareness | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-Pushover?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-Pushover) |
 
 ### ![macOS](https://img.shields.io/badge/-macOS-000000?logo=apple&logoColor=white)
 
@@ -211,6 +225,7 @@ Model Context Protocol servers that expose alert and shelter data to AI assistan
 | Project | Author | Description | Stars | Last Commit |
 |---------|--------|-------------|-------|-------------|
 | [Multi City Alert Monitor](https://github.com/rinad12/multi-city-alert-monitor) | rinad12 | Monitors multiple cities and sends Telegram alerts | ![Stars](https://img.shields.io/github/stars/rinad12/multi-city-alert-monitor?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/rinad12/multi-city-alert-monitor) |
+| [Red Alert Telegram Bot](https://github.com/danielrosehill/Red-Alert-Telegram-Bot) | danielrosehill | On-demand situational intelligence bot with dual-model AI sitrep generation via OpenRouter | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-Telegram-Bot?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-Telegram-Bot) |
 
 ### WhatsApp
 
@@ -240,6 +255,12 @@ Guides, SOPs, and reference material for civilian preparedness in Israel.
 | [Israel Civilian Readiness Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | danielrosehill | Comprehensive civilian readiness guide for emergencies in Israel | ![Stars](https://img.shields.io/github/stars/danielrosehill/Israel-Civilian-Readiness-Guide?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Israel-Civilian-Readiness-Guide) |
 | [Israel Preparedness SOPs](https://github.com/danielrosehill/Israel-Preparedness-SOPs) | danielrosehill | Standard operating procedures for household emergency preparedness | ![Stars](https://img.shields.io/github/stars/danielrosehill/Israel-Preparedness-SOPs?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Israel-Preparedness-SOPs) |
 | [Pikud HaOref Guidelines 03/26](https://github.com/danielrosehill/Pikud-Haoref-Guidelines-0326) | danielrosehill | Pikud HaOref safety guidelines formatted for AI context ingestion | ![Stars](https://img.shields.io/github/stars/danielrosehill/Pikud-Haoref-Guidelines-0326?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Pikud-Haoref-Guidelines-0326) |
+
+## Full Monitoring Stacks
+
+| Project | Author | Description | Stars | Last Commit |
+|---------|--------|-------------|-------|-------------|
+| [Red Alert Monitoring Stack](https://github.com/danielrosehill/Red-Alert-Monitoring-Stack) | danielrosehill | Complete microservices stack: alert proxy, geo-dashboard, Pushover notifications, Telegram intelligence bot, Snapcast TTS + MQTT smart lights | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-Monitoring-Stack?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-Monitoring-Stack) |
 
 ## Resource Lists
 
