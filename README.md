@@ -4,6 +4,7 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 
 ## Contents
 
+- [Official Resources & Services](#official-resources--services)
 - [Geo-Dashboards](#geo-dashboards)
 - [API / Alert Feed Wrappers](#api--alert-feed-wrappers)
 - [SDKs (Unofficial)](#sdks-unofficial)
@@ -32,6 +33,29 @@ A curated list of red alert (צבע אדום) civilian notification projects for
 - [Pikud HaOref Guidelines for AI Context](#pikud-haoref-guidelines-for-ai-context)
 - [Resource Lists](#resource-lists)
 - [Other](#other)
+
+---
+
+## Official Resources & Services
+
+### Home Front Command (Pikud HaOref)
+
+- [Alerts History](https://www.oref.org.il/eng/alerts-history) — Official alert history *(geo-restricted)*
+- [Pikud HaOref Telegram](https://t.me/PikudHaOref_all) — Official Telegram channel for all alerts
+
+### Tzofar (צופר)
+
+- [Tzofar Website](https://www.tzevaadom.co.il/en/) — Real-time alert website
+- [Tzofar Android App](https://play.google.com/store/apps/details?id=com.red.alert) — Google Play
+- [Tzofar iOS App](https://apps.apple.com/il/app/tzofar-red-alert/id1480129320) — App Store
+- [Tzofar Chrome Extension](https://chromewebstore.google.com/detail/%D7%A6%D7%95%D7%A4%D7%A8-%D7%A6%D7%91%D7%A2-%D7%90%D7%93%D7%95%D7%9D/hpbdhanjafnpeeobgejmdaajkiamfdpi?hl=en&pli=1) — Browser extension *(highly recommended)*
+- [Tzofar WhatsApp Channel](https://www.whatsapp.com/channel/0029Va6c4jpIHphPAwLl4j0q) — WhatsApp alert channel
+
+### Other Services
+
+- [RocketAlert.live](https://rocketalert.live/) — Live rocket alert tracker
+- [Tzevadom](https://tzevadom.com/en/) — Real-time alert website
+- [ILRedAlert on X](https://x.com/ILRedAlert) — Alert feed on X (Twitter)
 
 ---
 
