@@ -1,3 +1,5 @@
+![Red Alert Open Source Projects](banner.png)
+
 # Awesome Red Alerts
 
 A curated list of open-source and community projects aiming to expand the alerting surface of Home Front Command Red Alerts (צבע אדום).
