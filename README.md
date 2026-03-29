@@ -148,8 +148,7 @@ Interactive maps and dashboards for visualizing alert data geographically.
 
 | Project | Author | Description | Stars | Last Commit |
 |---------|--------|-------------|-------|-------------|
-| [Red Alert Pushover](https://github.com/danielrosehill/Red-Alert-Pushover) | danielrosehill | Pushover push notifications when nationwide alert count crosses thresholds (50/100/200/.../1000 areas) for large-scale situational awareness | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-Pushover?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-Pushover) |
-| [Red Alert OSINT Notifier](https://github.com/danielrosehill/Red-Alert-OSINT-Notifier) | danielrosehill | Unified Pushover notification + OSINT module: monitors Telegram channels (EN/HE) for missile launches, Oref volumetric thresholds, and Groq-powered intel reports for configurable local-area events | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-OSINT-Notifier?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-OSINT-Notifier) |
+| [Red Alert OSINT Notifier](https://github.com/danielrosehill/Red-Alert-OSINT-Notifier) | danielrosehill | Unified Pushover notification + OSINT module: monitors Telegram channels (EN/HE) for missile launches, Oref volumetric thresholds, Groq intel reports, dual-model sitreps, and RSS news context for configurable local-area events | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-OSINT-Notifier?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-OSINT-Notifier) |
 
 ### ![macOS](https://img.shields.io/badge/-macOS-000000?logo=apple&logoColor=white)
 
@@ -226,7 +225,6 @@ Model Context Protocol servers that expose alert and shelter data to AI assistan
 | Project | Author | Description | Stars | Last Commit |
 |---------|--------|-------------|-------|-------------|
 | [Multi City Alert Monitor](https://github.com/rinad12/multi-city-alert-monitor) | rinad12 | Monitors multiple cities and sends Telegram alerts | ![Stars](https://img.shields.io/github/stars/rinad12/multi-city-alert-monitor?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/rinad12/multi-city-alert-monitor) |
-| [Red Alert Telegram Bot](https://github.com/danielrosehill/Red-Alert-Telegram-Bot) | danielrosehill | On-demand situational intelligence bot with dual-model AI sitrep generation via OpenRouter | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-Telegram-Bot?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-Telegram-Bot) |
 
 ### WhatsApp
 
