@@ -149,6 +149,7 @@ Interactive maps and dashboards for visualizing alert data geographically.
 | Project | Author | Description | Stars | Last Commit |
 |---------|--------|-------------|-------|-------------|
 | [Red Alert Pushover](https://github.com/danielrosehill/Red-Alert-Pushover) | danielrosehill | Pushover push notifications when nationwide alert count crosses thresholds (50/100/200/.../1000 areas) for large-scale situational awareness | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-Pushover?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-Pushover) |
+| [Red Alert OSINT Notifier](https://github.com/danielrosehill/Red-Alert-OSINT-Notifier) | danielrosehill | Unified Pushover notification + OSINT module: monitors Telegram channels (EN/HE) for missile launches, Oref volumetric thresholds, and Groq-powered intel reports for configurable local-area events | ![Stars](https://img.shields.io/github/stars/danielrosehill/Red-Alert-OSINT-Notifier?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Red-Alert-OSINT-Notifier) |
 
 ### ![macOS](https://img.shields.io/badge/-macOS-000000?logo=apple&logoColor=white)
 
