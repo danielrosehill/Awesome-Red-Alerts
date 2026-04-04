@@ -19,6 +19,8 @@ A curated list of open-source and community projects aiming to expand the alerti
 - [Notifiers](#notifiers)
 - [Bots](#bots)
 - [Integrations](#integrations)
+  - [MCP](#mcp)
+  - [Agent Skills](#agent-skills)
 - [Hardware](#hardware)
 - [Analysis & Infographics](#analysis--infographics)
 - [Civilian Readiness & Preparedness](#civilian-readiness--preparedness)
@@ -110,6 +112,7 @@ Interactive maps and dashboards for visualizing alert data geographically.
 | Project | Author | Description | Stars | Last Commit |
 |---------|--------|-------------|-------|-------------|
 | [Oref Alert](https://github.com/amitfin/oref_alert) | amitfin | HACS integration providing alert sensors and automations | ![Stars](https://img.shields.io/github/stars/amitfin/oref_alert?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/amitfin/oref_alert) |
+| [RedAlert](https://github.com/idodov/RedAlert) | idodov | Home Assistant integration exposing Red Alert data as sensors | ![Stars](https://img.shields.io/github/stars/idodov/RedAlert?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/idodov/RedAlert) |
 | [Home Assistant Red Alert Automations](https://github.com/danielrosehill/Home-Assistant-Red-Alert-Automations) | danielrosehill | Ready-made HA automation YAML configs for red alerts | ![Stars](https://img.shields.io/github/stars/danielrosehill/Home-Assistant-Red-Alert-Automations?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Home-Assistant-Red-Alert-Automations) |
 
 ### Homebridge
@@ -144,6 +147,12 @@ Interactive maps and dashboards for visualizing alert data geographically.
 | [MMM Pikud HaOref](https://github.com/oriyaakov/MMM-PikudHaoref) | oriyaakov | MagicMirror module for Pikud HaOref alert display | ![Stars](https://img.shields.io/github/stars/oriyaakov/MMM-PikudHaoref?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/oriyaakov/MMM-PikudHaoref) |
 
 ## Notifiers
+
+### Multi-Channel
+
+| Project | Author | Description | Stars | Last Commit |
+|---------|--------|-------------|-------|-------------|
+| [Red Alerts Notifier](https://github.com/YogevKr/red-alerts-notifier) | YogevKr | Self-hosted alert notifier delivering Home Front Command alerts via WhatsApp and Telegram | ![Stars](https://img.shields.io/github/stars/YogevKr/red-alerts-notifier?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/YogevKr/red-alerts-notifier) |
 
 ### ![Pushover](https://img.shields.io/badge/-Pushover-249DF1?logo=pushover&logoColor=white)
 
@@ -207,6 +216,15 @@ Model Context Protocol servers that expose alert and shelter data to AI assistan
 |---------|--------|-------------|-------|-------------|
 | [Pikud HaOref Alerts](https://github.com/yaniv-golan/pikud-haoref-alerts) | yaniv-golan | MCP server providing live alert data to Claude | ![Stars](https://img.shields.io/github/stars/yaniv-golan/pikud-haoref-alerts?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/yaniv-golan/pikud-haoref-alerts) |
 | [Miklat MCP](https://github.com/danielrosehill/Miklat-MCP) | danielrosehill | MCP server providing shelter (miklat) location data to AI agents | ![Stars](https://img.shields.io/github/stars/danielrosehill/Miklat-MCP?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Miklat-MCP) |
+| [RedAlert MCP Server](https://github.com/ozba/redalert-mcp-server) | ozba | MCP server exposing real-time alerts, statistics, shelter search, and city data to AI agents | ![Stars](https://img.shields.io/github/stars/ozba/redalert-mcp-server?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/ozba/redalert-mcp-server) |
+
+### Agent Skills
+
+AI agent skills and plugins for red alert awareness.
+
+| Project | Author | Description | Stars | Last Commit |
+|---------|--------|-------------|-------|-------------|
+| [OpenClaw Skill Red Alert](https://github.com/shaike1/openclaw-skill-red-alert) | shaike1 | OpenClaw skill delivering real-time Home Front Command alerts via WhatsApp and TTS without requiring Home Assistant | ![Stars](https://img.shields.io/github/stars/shaike1/openclaw-skill-red-alert?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/shaike1/openclaw-skill-red-alert) |
 
 ### Slack
 
