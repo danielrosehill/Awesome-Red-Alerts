@@ -292,6 +292,7 @@ Guides, SOPs, and reference material for civilian preparedness in Israel.
 | Project | Author | Description | Stars | Last Commit |
 |---------|--------|-------------|-------|-------------|
 | [Alerts](https://github.com/noam767/alerts) | noam767 | Alert notification project | ![Stars](https://img.shields.io/github/stars/noam767/alerts?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/noam767/alerts) |
+| [Israel Home Front Ideas](https://github.com/danielrosehill/Israel-Home-Front-Ideas) | danielrosehill | Collected open source ideas for the Pikud HaOref system | ![Stars](https://img.shields.io/github/stars/danielrosehill/Israel-Home-Front-Ideas?style=flat) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Israel-Home-Front-Ideas) |
 
 ---
 
